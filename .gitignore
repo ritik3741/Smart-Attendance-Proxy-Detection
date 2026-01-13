@@ -1,5 +1,16 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
-attendance.db
 *.pyc
-.env
+
+# Database
+attendance.db
+
+# Face images (privacy)
+dataset/*/
+!dataset/.gitkeep
+
+# OS files
+.DS_Store
